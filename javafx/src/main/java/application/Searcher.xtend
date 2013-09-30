@@ -19,7 +19,7 @@ class Searcher {
 		Observable.<String> create[
 			
 			val Task<Void> task = [|
-				for (file : traverser.breadthFirstTraversal(new File("D:/Soft"))) {
+				for (file : traverser.breadthFirstTraversal(new File("D:/"))) {
 					if (self.isCancelled) {
 						return null
 					}
