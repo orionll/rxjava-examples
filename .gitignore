@@ -1,6 +1,6 @@
 *.class
-
-# Package Files #
 *.jar
-*.war
-*.ear
+
+javafx/src/main/xtend-gen
+javafx/src/test/xtend-gen
+javafx/target
